@@ -28,9 +28,9 @@ function exactMatch(drivers, rev){
   return newArr
 }
 
-function exactMatchToList(drivers){
+function exactMatchToList(drivers, rev){
   let newArr = []
   exactMatch(drivers)
-  newArr.push(exactMatch(drivers).name)
+  newArr.push(exactMatch(drivers, rev).name)
   return newArr
   }
