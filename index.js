@@ -17,3 +17,13 @@ function driverNamesWithRevenueOver(drivers, rev){
   })
   return newArr
 }
+
+function exactMatch(drivers, rev){
+  let newArr = []
+  drivers.filter(function(driver){
+    if (driver.revenue === rev){
+      newArr.push(driver)
+    }
+  })
+
+}
