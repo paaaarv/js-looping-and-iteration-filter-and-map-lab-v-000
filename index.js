@@ -30,10 +30,10 @@ function exactMatch(drivers, rev){
 
 function exactMatchToList(drivers, rev){
   let newArr = []
-  drivers.filter(function(driver{
+  drivers.filter(function(driver){
     if (driver.name === rev.name || driver.revenue === rev.revenue){
       newArr.push(driver.name)
     }
-  }))
+  })
   return newArr
   }
