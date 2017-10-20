@@ -4,7 +4,7 @@
 function driversWithRevenueOver(drivers,rev){
 
   return drivers.filter(function(driver){
-    return drivers.revenue > rev
+    return driver.revenue > rev
   })
 
 }
