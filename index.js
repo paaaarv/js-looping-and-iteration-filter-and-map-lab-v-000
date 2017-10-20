@@ -15,4 +15,5 @@ function driverNamesWithRevenueOver(drivers, rev){
     if (driver.revenue > rev){
     newArr.push(driver.name)}
   })
+  return newArr
 }
