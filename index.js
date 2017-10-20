@@ -25,5 +25,5 @@ function exactMatch(drivers, rev){
       newArr.push(driver)
     }
   })
-
+  return newArr
 }
