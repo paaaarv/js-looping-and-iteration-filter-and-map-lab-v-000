@@ -10,8 +10,8 @@ function driversWithRevenueOver(drivers,rev){
 }
 
 function driverNamesWithRevenueOver(drivers, rev){
-
+  let newArr = []
   return drivers.filter(function(driver){
-    ret
+    newArr.push(driver.name if(driver.revenue > rev))
   })
 }
