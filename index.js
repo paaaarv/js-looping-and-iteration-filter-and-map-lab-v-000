@@ -27,3 +27,10 @@ function exactMatch(drivers, rev){
   })
   return newArr
 }
+
+function exactMatchToList(drivers){
+  let newArr = [] 
+  exactMatch(drivers)
+  newArr.push(exactMatch(drivers).name)
+  }))
+}
