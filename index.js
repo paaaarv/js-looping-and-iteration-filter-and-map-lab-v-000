@@ -32,5 +32,5 @@ function exactMatchToList(drivers){
   let newArr = []
   exactMatch(drivers)
   newArr.push(exactMatch(drivers).name)
+  return newArr
   }
-
