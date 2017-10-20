@@ -21,7 +21,7 @@ function driverNamesWithRevenueOver(drivers, rev){
 function exactMatch(drivers, rev){
   let newArr = []
   drivers.filter(function(driver){
-    if (driver.name === rev.name || driver.revenue === rev.revenue){
+    if (driver.name === rev.name && driver.revenue === rev.revenue){
       newArr.push(driver)
     }
   })
