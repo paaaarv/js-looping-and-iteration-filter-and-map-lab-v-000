@@ -22,7 +22,7 @@ function exactMatch(drivers, rev){
   let newArr = []
   drivers.filter(function(driver){
     if (driver.revenue === rev){
-      newArr.push(driver)
+      newArr.push(driver.name)
     }
   })
   return newArr
