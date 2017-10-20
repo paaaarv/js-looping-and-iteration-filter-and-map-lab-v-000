@@ -30,6 +30,6 @@ function exactMatch(drivers, rev){
 
 function exactMatchToList(drivers, rev){
   let newArr = []
-  newArr.push(exactMatch(drivers, rev).name)
+  newArr.push(exactMatch(drivers, rev))
   return newArr
   }
